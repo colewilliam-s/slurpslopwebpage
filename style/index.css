@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+}
+.nav-bar {
+    display: flexbox;
+    flex-direction: row;
+    background-color: rgb(43, 43, 43);
+    margin-top: 0;;
+    padding: 0;     
+}
+.left-text{
+    display:flex;
+    justify-content: left;
+    margin-top: 0;
+    color: rgb(216, 207, 207);
+    margin-right: 3vw;
+}
+.nav-bar-text{
+    margin: 0;
+}
+#install{
+    display: flex;
+    justify-self: right;
+}
+hr {
+    height: 3vh;
+    background-color: rgb(173, 173, 87);
+}
