@@ -4,10 +4,11 @@ html, body {
     padding: 0;
 }
 .nav-bar {
-    display: flexbox;
-    flex-direction: row;
+    display: flex;
+    align-items: center;
     background-color: rgb(43, 43, 43);
-    margin-top: 0;;
+    justify-content: space-between;
+    margin: 0;
     padding: 0;     
 }
 .left-text{
@@ -16,17 +17,28 @@ html, body {
     margin: 1vw;
     margin-top: 0;
     color: rgb(216, 207, 207);
+    width:fit-content;
+}
+.right{
+    display: flex;
+    justify-content: right !important;
+    margin-right: 1.25vw;
+    align-items: center;
+    width: fit-content;
 }
 .nav-bar-text{
     margin: 0;
-    padding-left: 3vw;
-    padding-top: 3vh;
+    padding-left: 1.5vw;
+    padding-top: 2vh;
+    font-size: 1.25vw;
 }
 #install{
     display: flex;
-    justify-self: right;
+    align-self: center;
+
 }
 hr {
     height: 3vh;
     background-color: rgb(173, 173, 87);
+    margin: 0;
 }
