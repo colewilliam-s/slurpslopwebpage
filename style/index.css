@@ -13,12 +13,14 @@ html, body {
 .left-text{
     display:flex;
     justify-content: left;
+    margin: 1vw;
     margin-top: 0;
     color: rgb(216, 207, 207);
-    margin-right: 3vw;
 }
 .nav-bar-text{
     margin: 0;
+    padding-left: 3vw;
+    padding-top: 3vh;
 }
 #install{
     display: flex;
