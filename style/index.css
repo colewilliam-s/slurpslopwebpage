@@ -1,5 +1,7 @@
 :root {
     --font: 'Courier New', Courier, monospace;
+    --font-color: whitesmoke;
+    --font-size: 1.25rem;
 }
 
 html, body {
@@ -60,7 +62,7 @@ html, body {
     font-size: 1.1vw;
     height: auto;
     background-image: linear-gradient(to right, rgba(86, 156, 248, 0.986), rgb(92, 17, 17));
-    color: whitesmoke;
+    color: var(--font-color);
     font-family: var(--font);
 }
 hr {
@@ -82,4 +84,16 @@ hr {
     margin-right: 12vw;
     font-size: 3.5rem;
     font-family: var(--font);
+}
+#goals{
+    margin: 0;
+    color: var(--font-color);
+    font-size: var(--font-size)
+}
+.goals {
+    text-align: center;
+}
+#goals-heading {
+    color: var(--font-color);
+    text-decoration: underline;
 }
