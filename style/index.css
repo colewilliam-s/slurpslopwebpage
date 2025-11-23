@@ -100,3 +100,21 @@ hr {
     text-decoration: underline;
     font-family: var(--font);
 }
+#features {
+    margin: 0;
+    color: var(--font-color);
+    font-size: var(--font-size);
+    font-family: var(--font);
+}
+.features {
+    text-align: center;
+}
+.features-heading {
+    color: var(--font-color);
+    text-decoration: underline;
+    font-family: var(--font);
+}
+ul {
+    list-style: none;
+    margin: 0;
+}
