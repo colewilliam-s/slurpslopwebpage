@@ -118,3 +118,17 @@ ul {
     list-style: none;
     margin: 0;
 }
+#how-it-works {
+    margin: 0;
+    color: var(--font-color);
+    font-size: var(--font-size);
+    font-family: var(--font);
+}
+.how-it-works {
+    text-align: center;
+}
+.how-it-works-heading {
+    color: var(--font-color);
+    text-decoration: underline;
+    font-family: var(--font);
+}
