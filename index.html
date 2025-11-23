@@ -51,16 +51,27 @@
             <section class="features">
                 <h1 class="features-heading">Features</h1>
                 <span id="features">
-                    Whenever you choose to open up the popup overview, you will be presented with different toggleable features for the entire extension. These options consist of:<br>
+                    Whenever you choose to open up the popup overview, you will be presented with different toggleable features for the entire extension. These options consist of:<br><br><br>
                     <ul>
-                        <li>-Enable or Disable the entire extension</li>
-                        <li>-Turning on/off the AI overview, ads, low quality websites, and the AI mode button</li>
-                        <li>-Minimalist mode (Just removes the AI overview)</li>
-                        <li>-Aggresive Mode (Blocks network requests for AI content)</li>
-                        <li>-Links Only (Removes every component except links)</li>
-                        <li>-Placeholders (Replaces removed content with placeholders)</li>
+                        <li>-Enable or Disable the entire extension</li><br>
+                        <li>-Turning on/off the AI overview, ads, low quality websites, and the AI mode button</li><br>
+                        <li>-Minimalist mode (Just removes the AI overview)</li><br>
+                        <li>-Aggresive Mode (Blocks network requests for AI content)</li><br>
+                        <li>-Links Only (Removes every component except links)</li><br>
+                        <li>-Placeholders (Replaces removed content with placeholders)</li><br>
                         <li>-Logging</li>
                     </ul>
+                </span>
+            </section>
+            <div class="separator"></div>
+            <section class="how-it-works">
+                <h1 class="how-it-works-heading">How it works</h1>
+                <span id="how-it-works">
+                    This extension mainly does three things: whitelist low quality websites (which you can also add on to), blocks ads, and removes the Gemini AI overview.<br>
+                    We manage the low quality websites by using a JS file to sort all of the broad 'slop' websites, and then another script that cuts them from the webpage.<br>
+                    The ad blocker and the AI removal act in the same way. However, when you use 'aggresive' mode, we created a script that blocks the internet request to the Gemini servers,<br>
+                    which prevents the overview from generation. But because we also block the network request to the server, water gets saved from being contaminated from the AI servers.<br>
+                    We managed to do this with an extensive script that works in tandem with a JSON file. We won't go into the specifics, but just to keep it a fun little secret.
                 </span>
             </section>
         </div>
