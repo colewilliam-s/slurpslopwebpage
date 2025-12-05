@@ -9,13 +9,14 @@ html, body {
     margin-top: 0;
     padding: 0;
     background-color: black;
+    scroll-behavior: smooth;
 }
 #main {
     background-image: linear-gradient(to bottom, rgba(86, 156, 248, 0.986), rgb(92, 17, 17));
     min-height: 100vh;
 }
 .separator {
-    height: 25vh;
+    height: 27vh;
     margin: 0;
 }
 .nav-bar {
@@ -86,7 +87,7 @@ hr {
     font-size: 3.5rem;
     font-family: var(--font);
 }
-#goals{
+#goals-text{
     margin: 0;
     color: var(--font-color);
     font-size: var(--font-size);
@@ -131,4 +132,38 @@ ul {
     color: var(--font-color);
     text-decoration: underline;
     font-family: var(--font);
+}
+.a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+.support {
+    margin: 0;
+    color: var(--font-color);
+    font-size: var(--font-size);
+    font-family: var(--font);
+}
+.support-div {
+    text-align: center;
+}
+.support-heading {
+    color: var(--font-color);
+    text-decoration: underline;
+    font-family: var(--font);
+}
+#support-heading {
+    color: var(--font-color);
+    font-family: var(--font);
+}
+.form-text {
+    color: var(--font-color);
+    font-size: var(--font-size);
+    font-family: var(--font);
+}
+.text-input {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    background-color: antiquewhite;
+    width: 15vw;
 }
